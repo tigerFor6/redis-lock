@@ -1,0 +1,5 @@
+# Auto Configure
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.wisdge.redisson.configure.RedissonAutoConfiguration,\
+com.wisdge.redisson.configure.RedissonCacheConfiguration,\
+com.wisdge.redisson.configure.RedissonDistributedLockAspectConfiguration
